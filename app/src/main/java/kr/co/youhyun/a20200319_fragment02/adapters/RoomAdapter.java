@@ -39,7 +39,7 @@ public class RoomAdapter extends ArrayAdapter<Room> {
 
 //        row : 한 줄이 없다? => 새로  XML => JAVA로 그려줘야한다. (inflate)
 //        리스트뷰의 재활용성(이론)에서 다시 설명
-        if (roww == null) {
+        if (row == null) {
             row = inflater.inflate(R.layout.room_list_item,null);
 
         }

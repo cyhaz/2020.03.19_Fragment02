@@ -9,11 +9,11 @@
         android:gravity="center"
         tools:context=".MainActivity">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="배고프다"
-            android:textSize="50sp"/>
+        <fragment
+            android:id="@+id/roomListFrag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="kr.co.youhyun.a20200319_fragment02.fragments.RoomListFragment"/>
 
     </LinearLayout>
 </layout>
