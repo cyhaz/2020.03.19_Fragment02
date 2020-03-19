@@ -10,6 +10,12 @@
         tools:context=".MainActivity">
 
         <fragment
+            android:id="@+id/chickenstoreFrag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="kr.co.youhyun.a20200319_fragment02.fragments.ChickenStoreFragment/"
+
+        <fragment
             android:id="@+id/roomListFrag"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
