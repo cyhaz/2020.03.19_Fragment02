@@ -29,5 +29,6 @@ public class RoomListFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
 //        프래그먼트 동작 코드 => 리스트뷰 띄워주기기
+
     }
 
