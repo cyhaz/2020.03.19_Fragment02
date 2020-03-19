@@ -2,7 +2,9 @@ package kr.co.youhyun.a20200319_fragment02;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 
 import kr.co.youhyun.a20200319_fragment02.databinding.ActivitySplashBinding;
 
@@ -25,6 +27,19 @@ public class SplashActivity extends BaseActivity {
 
     @Override
     public void setValues() {
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(mContext, MainActivity.class);
+                startActivity(intent);
+
+                finish();
+            }
+        }, 2000);
+
+
 
     }
 }
